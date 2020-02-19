@@ -1,3 +1,9 @@
+@media screen and (max-width:1024px){
+  .nav-menu-options .subscription-button{
+    width:100%;
+  }
+}
+
 @media screen and (max-width:768px){
   body{
     width: 100%;
@@ -16,5 +22,83 @@
 }
 
 @media screen and (max-width:480px){
-  
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 22px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  p,a{
+    font-size: 14px;
+  }
+
+  .header .header-search input{
+    transform: translateY(40px);
+  }
+
+  nav{
+    grid-template-columns: 1fr;
+  }
+
+  nav .nav-label{
+    display: block;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  nav .nav-menu ul{
+    display: block;
+  }
+
+  .nav-menu .nav-menu-options{
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-menu-options li{
+    width: 100% !important;
+    margin: 0 auto !important;
+    border-bottom: 1px solid rgb(28, 112, 67);
+    box-sizing: border-box;
+  }
+
+  .nav-menu-options .subscription-button{
+    background: transparent;
+    border-bottom: 1px solid rgb(28, 112, 67);
+  }
+
+  #toggle:checked + .nav-menu-options {
+    display: block;
+  }
+
+  .testimonials .testimonials-items{
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-items .testimonial-item{
+    box-sizing: border-box;
+  } 
+
+  footer{
+    grid-template-columns: 1fr;
+  }
+
+  footer .footer-suscribe{
+    text-align: center;
+  }
+
+  footer .footer-social{
+    justify-content: center;
+  }
+
+  footer .footer-menu li{
+    text-align: center;
+  }
 }

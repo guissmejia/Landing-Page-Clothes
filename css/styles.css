@@ -81,7 +81,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   position: fixed;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, .8);
   box-sizing: border-box;
 }
 
@@ -137,6 +137,19 @@ nav .nav-menu-options a {
   transform: scale(0.9);
 }
 
+.nav-label{
+  margin: 0 5px 0 0;
+  font-size: 27px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -176,6 +189,7 @@ nav .nav-menu-options a {
 
 .header .header-search-text h1 {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .header .header-search input {
